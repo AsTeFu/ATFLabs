@@ -57,30 +57,75 @@ include CMakeFiles/ATFLabs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ATFLabs.dir/flags.make
 
-CMakeFiles/ATFLabs.dir/src/Program.cpp.o: CMakeFiles/ATFLabs.dir/flags.make
-CMakeFiles/ATFLabs.dir/src/Program.cpp.o: ../src/Program.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ATFLabs.dir/src/Program.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ATFLabs.dir/src/Program.cpp.o -c /home/astefu/CLionProjects/ATFLabs/src/Program.cpp
+CMakeFiles/ATFLabs.dir/src/Application.cpp.o: CMakeFiles/ATFLabs.dir/flags.make
+CMakeFiles/ATFLabs.dir/src/Application.cpp.o: ../src/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ATFLabs.dir/src/Application.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ATFLabs.dir/src/Application.cpp.o -c /home/astefu/CLionProjects/ATFLabs/src/Application.cpp
 
-CMakeFiles/ATFLabs.dir/src/Program.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ATFLabs.dir/src/Program.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/astefu/CLionProjects/ATFLabs/src/Program.cpp > CMakeFiles/ATFLabs.dir/src/Program.cpp.i
+CMakeFiles/ATFLabs.dir/src/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ATFLabs.dir/src/Application.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/astefu/CLionProjects/ATFLabs/src/Application.cpp > CMakeFiles/ATFLabs.dir/src/Application.cpp.i
 
-CMakeFiles/ATFLabs.dir/src/Program.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ATFLabs.dir/src/Program.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/astefu/CLionProjects/ATFLabs/src/Program.cpp -o CMakeFiles/ATFLabs.dir/src/Program.cpp.s
+CMakeFiles/ATFLabs.dir/src/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ATFLabs.dir/src/Application.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/astefu/CLionProjects/ATFLabs/src/Application.cpp -o CMakeFiles/ATFLabs.dir/src/Application.cpp.s
+
+CMakeFiles/ATFLabs.dir/src/FileReader.cpp.o: CMakeFiles/ATFLabs.dir/flags.make
+CMakeFiles/ATFLabs.dir/src/FileReader.cpp.o: ../src/FileReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ATFLabs.dir/src/FileReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ATFLabs.dir/src/FileReader.cpp.o -c /home/astefu/CLionProjects/ATFLabs/src/FileReader.cpp
+
+CMakeFiles/ATFLabs.dir/src/FileReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ATFLabs.dir/src/FileReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/astefu/CLionProjects/ATFLabs/src/FileReader.cpp > CMakeFiles/ATFLabs.dir/src/FileReader.cpp.i
+
+CMakeFiles/ATFLabs.dir/src/FileReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ATFLabs.dir/src/FileReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/astefu/CLionProjects/ATFLabs/src/FileReader.cpp -o CMakeFiles/ATFLabs.dir/src/FileReader.cpp.s
+
+CMakeFiles/ATFLabs.dir/src/List.cpp.o: CMakeFiles/ATFLabs.dir/flags.make
+CMakeFiles/ATFLabs.dir/src/List.cpp.o: ../src/List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ATFLabs.dir/src/List.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ATFLabs.dir/src/List.cpp.o -c /home/astefu/CLionProjects/ATFLabs/src/List.cpp
+
+CMakeFiles/ATFLabs.dir/src/List.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ATFLabs.dir/src/List.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/astefu/CLionProjects/ATFLabs/src/List.cpp > CMakeFiles/ATFLabs.dir/src/List.cpp.i
+
+CMakeFiles/ATFLabs.dir/src/List.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ATFLabs.dir/src/List.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/astefu/CLionProjects/ATFLabs/src/List.cpp -o CMakeFiles/ATFLabs.dir/src/List.cpp.s
+
+CMakeFiles/ATFLabs.dir/src/main.cpp.o: CMakeFiles/ATFLabs.dir/flags.make
+CMakeFiles/ATFLabs.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ATFLabs.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ATFLabs.dir/src/main.cpp.o -c /home/astefu/CLionProjects/ATFLabs/src/main.cpp
+
+CMakeFiles/ATFLabs.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ATFLabs.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/astefu/CLionProjects/ATFLabs/src/main.cpp > CMakeFiles/ATFLabs.dir/src/main.cpp.i
+
+CMakeFiles/ATFLabs.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ATFLabs.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/astefu/CLionProjects/ATFLabs/src/main.cpp -o CMakeFiles/ATFLabs.dir/src/main.cpp.s
 
 # Object files for target ATFLabs
 ATFLabs_OBJECTS = \
-"CMakeFiles/ATFLabs.dir/src/Program.cpp.o"
+"CMakeFiles/ATFLabs.dir/src/Application.cpp.o" \
+"CMakeFiles/ATFLabs.dir/src/FileReader.cpp.o" \
+"CMakeFiles/ATFLabs.dir/src/List.cpp.o" \
+"CMakeFiles/ATFLabs.dir/src/main.cpp.o"
 
 # External object files for target ATFLabs
 ATFLabs_EXTERNAL_OBJECTS =
 
-ATFLabs: CMakeFiles/ATFLabs.dir/src/Program.cpp.o
+ATFLabs: CMakeFiles/ATFLabs.dir/src/Application.cpp.o
+ATFLabs: CMakeFiles/ATFLabs.dir/src/FileReader.cpp.o
+ATFLabs: CMakeFiles/ATFLabs.dir/src/List.cpp.o
+ATFLabs: CMakeFiles/ATFLabs.dir/src/main.cpp.o
 ATFLabs: CMakeFiles/ATFLabs.dir/build.make
 ATFLabs: CMakeFiles/ATFLabs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ATFLabs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ATFLabs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ATFLabs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -96,7 +96,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/astefu/CLionProjects/ATFLabs/src/Program.cpp">
+		<Unit filename="/home/astefu/CLionProjects/ATFLabs/src/Application.cpp">
+			<Option target="ATFLabs"/>
+		</Unit>
+		<Unit filename="/home/astefu/CLionProjects/ATFLabs/src/FileReader.cpp">
+			<Option target="ATFLabs"/>
+		</Unit>
+		<Unit filename="/home/astefu/CLionProjects/ATFLabs/src/List.cpp">
+			<Option target="ATFLabs"/>
+		</Unit>
+		<Unit filename="/home/astefu/CLionProjects/ATFLabs/src/main.cpp">
 			<Option target="ATFLabs"/>
 		</Unit>
 		<Unit filename="/home/astefu/CLionProjects/ATFLabs/CMakeLists.txt">

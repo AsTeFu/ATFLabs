@@ -136,32 +136,113 @@ lint/fast:
 	$(MAKE) -f CMakeFiles/lint.dir/build.make CMakeFiles/lint.dir/build
 .PHONY : lint/fast
 
-src/Program.o: src/Program.cpp.o
+src/Application.o: src/Application.cpp.o
 
-.PHONY : src/Program.o
+.PHONY : src/Application.o
 
 # target to build an object file
-src/Program.cpp.o:
-	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/Program.cpp.o
-.PHONY : src/Program.cpp.o
+src/Application.cpp.o:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/Application.cpp.o
+.PHONY : src/Application.cpp.o
 
-src/Program.i: src/Program.cpp.i
+src/Application.i: src/Application.cpp.i
 
-.PHONY : src/Program.i
+.PHONY : src/Application.i
 
 # target to preprocess a source file
-src/Program.cpp.i:
-	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/Program.cpp.i
-.PHONY : src/Program.cpp.i
+src/Application.cpp.i:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/Application.cpp.i
+.PHONY : src/Application.cpp.i
 
-src/Program.s: src/Program.cpp.s
+src/Application.s: src/Application.cpp.s
 
-.PHONY : src/Program.s
+.PHONY : src/Application.s
 
 # target to generate assembly for a file
-src/Program.cpp.s:
-	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/Program.cpp.s
-.PHONY : src/Program.cpp.s
+src/Application.cpp.s:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/Application.cpp.s
+.PHONY : src/Application.cpp.s
+
+src/FileReader.o: src/FileReader.cpp.o
+
+.PHONY : src/FileReader.o
+
+# target to build an object file
+src/FileReader.cpp.o:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/FileReader.cpp.o
+.PHONY : src/FileReader.cpp.o
+
+src/FileReader.i: src/FileReader.cpp.i
+
+.PHONY : src/FileReader.i
+
+# target to preprocess a source file
+src/FileReader.cpp.i:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/FileReader.cpp.i
+.PHONY : src/FileReader.cpp.i
+
+src/FileReader.s: src/FileReader.cpp.s
+
+.PHONY : src/FileReader.s
+
+# target to generate assembly for a file
+src/FileReader.cpp.s:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/FileReader.cpp.s
+.PHONY : src/FileReader.cpp.s
+
+src/List.o: src/List.cpp.o
+
+.PHONY : src/List.o
+
+# target to build an object file
+src/List.cpp.o:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/List.cpp.o
+.PHONY : src/List.cpp.o
+
+src/List.i: src/List.cpp.i
+
+.PHONY : src/List.i
+
+# target to preprocess a source file
+src/List.cpp.i:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/List.cpp.i
+.PHONY : src/List.cpp.i
+
+src/List.s: src/List.cpp.s
+
+.PHONY : src/List.s
+
+# target to generate assembly for a file
+src/List.cpp.s:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/List.cpp.s
+.PHONY : src/List.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -173,9 +254,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... ATFLabs"
 	@echo "... lint"
-	@echo "... src/Program.o"
-	@echo "... src/Program.i"
-	@echo "... src/Program.s"
+	@echo "... src/Application.o"
+	@echo "... src/Application.i"
+	@echo "... src/Application.s"
+	@echo "... src/FileReader.o"
+	@echo "... src/FileReader.i"
+	@echo "... src/FileReader.s"
+	@echo "... src/List.o"
+	@echo "... src/List.i"
+	@echo "... src/List.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

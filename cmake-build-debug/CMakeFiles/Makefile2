@@ -75,12 +75,12 @@ preinstall:
 CMakeFiles/ATFLabs.dir/all: CMakeFiles/lint.dir/all
 	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/depend
 	$(MAKE) -f CMakeFiles/ATFLabs.dir/build.make CMakeFiles/ATFLabs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ATFLabs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target ATFLabs"
 .PHONY : CMakeFiles/ATFLabs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ATFLabs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ATFLabs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ATFLabs.dir/rule
@@ -102,7 +102,7 @@ CMakeFiles/ATFLabs.dir/clean:
 CMakeFiles/lint.dir/all:
 	$(MAKE) -f CMakeFiles/lint.dir/build.make CMakeFiles/lint.dir/depend
 	$(MAKE) -f CMakeFiles/lint.dir/build.make CMakeFiles/lint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=3 "Built target lint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=6 "Built target lint"
 .PHONY : CMakeFiles/lint.dir/all
 
 # Build rule for subdir invocation for target.

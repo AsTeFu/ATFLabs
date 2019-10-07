@@ -53,9 +53,12 @@ CMAKE_BINARY_DIR = /home/astefu/CLionProjects/ATFLabs/cmake-build-debug
 # Include the progress variables for this target.
 include CMakeFiles/lint.dir/progress.make
 
-CMakeFiles/lint: ../src/Program.cpp
+CMakeFiles/lint: ../src/Application.cpp
+CMakeFiles/lint: ../src/FileReader.cpp
+CMakeFiles/lint: ../src/List.cpp
+CMakeFiles/lint: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linting ATFLabs"
-	/snap/clion/85/bin/cmake/linux/bin/cmake -E chdir /home/astefu/CLionProjects/ATFLabs /usr/bin/python2.7 /home/astefu/CLionProjects/ATFLabs/misc/cpplint/cpplint.py --filter=-build/include_subdir,-readability/streams,-legal/copyright, --counting=detailed --linelength=120 /home/astefu/CLionProjects/ATFLabs/src/Program.cpp
+	/snap/clion/85/bin/cmake/linux/bin/cmake -E chdir /home/astefu/CLionProjects/ATFLabs /usr/bin/python2.7 /home/astefu/CLionProjects/ATFLabs/misc/cpplint/cpplint.py --filter=-build/include_subdir,-readability/streams,-legal/copyright, --counting=detailed --linelength=120 /home/astefu/CLionProjects/ATFLabs/src/Application.cpp /home/astefu/CLionProjects/ATFLabs/src/FileReader.cpp /home/astefu/CLionProjects/ATFLabs/src/List.cpp /home/astefu/CLionProjects/ATFLabs/src/main.cpp
 
 lint: CMakeFiles/lint
 lint: CMakeFiles/lint.dir/build.make
