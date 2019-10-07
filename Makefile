@@ -6,10 +6,10 @@ mkdir_build:
 	[ -d ./cmake-build-debug ] | mkdir -p cmake-build-debug
 
 build:
-	cd cmake-build-debug;cmake --build . --target Laba1
+	cd cmake-build-debug;cmake --build . --target ATFLabs
 
 exec:
-	./cmake-build-debug/Laba1
+	./cmake-build-debug/ATFLabs
 
 clean:
 	rm -rf cmake-build-debug
