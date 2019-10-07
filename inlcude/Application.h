@@ -2,8 +2,8 @@
 // Created by astefu on 10/7/19.
 //
 
-#ifndef LABA1_APPLICATION_H
-#define LABA1_APPLICATION_H
+#ifndef ATFLABS_APPLICATION_H
+#define ATFLABS_APPLICATION_H
 
 #include <string>
 #include "../inlcude/List.h"
@@ -19,4 +19,4 @@ class Application {
   void print() const;
 };
 
-#endif  // LABA1_APPLICATION_H
+#endif  // ATFLABS_APPLICATION_H

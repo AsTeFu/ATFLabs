@@ -2,10 +2,9 @@
 // Created by astefu on 9/19/19.
 //
 
-#ifndef LABA1_UTILITY_H
-#define LABA1_UTILITY_H
+#ifndef ATFLABS_UTILITY_H
+#define ATFLABS_UTILITY_H
 
-#include <stdexcept>
 #include <string>
 
 class Utility {
@@ -20,4 +19,4 @@ class Utility {
   }
 };
 
-#endif  // LABA1_UTILITY_H
+#endif  // ATFLABS_UTILITY_H

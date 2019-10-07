@@ -2,8 +2,8 @@
 // Created by astefu on 9/27/19.
 //
 
-#ifndef LABA1_FILEREADER_H
-#define LABA1_FILEREADER_H
+#ifndef ATFLABS_FILEREADER_H
+#define ATFLABS_FILEREADER_H
 
 #include <fstream>
 #include <iostream>
@@ -34,4 +34,4 @@ class FileReader {
   }
 };
 
-#endif  // LABA1_FILEREADER_H
+#endif  // ATFLABS_FILEREADER_H

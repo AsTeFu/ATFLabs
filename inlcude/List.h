@@ -2,8 +2,8 @@
 // Created by astefu on 9/27/19.
 //
 
-#ifndef LABA1_LIST_H
-#define LABA1_LIST_H
+#ifndef ATFLABS_LIST_H
+#define ATFLABS_LIST_H
 
 #include <glob.h>
 #include <utility>
@@ -46,4 +46,4 @@ class List {
   }
 };
 
-#endif  // LABA1_LIST_H
+#endif  // ATFLABS_LIST_H

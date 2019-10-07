@@ -4,6 +4,7 @@
 
 #include "../inlcude/Application.h"
 #include <iostream>
+
 void Application::print() const {
   for (size_t i = 0; i < list->size(); ++i) std::cout << list->at(i) << " ";
   std::cout << std::endl;
