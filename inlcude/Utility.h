@@ -8,6 +8,7 @@
 #include <string>
 
 class Utility {
+ public:
   static bool tryToInt(const std::string& str, int* num);
 
   static int getNumber(const std::string& name);
