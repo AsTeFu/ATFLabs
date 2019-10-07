@@ -1,1 +1,1 @@
-/usr/bin/c++   -O0 -Wall -Werror -Wextra -Wzero-as-null-pointer-constant -Winit-self -Wswitch-default -Wfloat-equal -Wno-unused-parameter -fPIC -march=native -g   CMakeFiles/ATFLabs.dir/src/Program.cpp.o  -o ATFLabs 
+/usr/bin/c++   -O0 -Wall -Werror -Wextra -Wzero-as-null-pointer-constant -Winit-self -Wswitch-default -Wfloat-equal -Wno-unused-parameter -fPIC -march=native   CMakeFiles/ATFLabs.dir/src/Program.cpp.o CMakeFiles/ATFLabs.dir/src/Queue.cpp.o CMakeFiles/ATFLabs.dir/src/main.cpp.o  -o ATFLabs 

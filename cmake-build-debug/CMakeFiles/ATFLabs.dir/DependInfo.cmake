@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/astefu/CLionProjects/ATFLabs/src/Program.cpp" "/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles/ATFLabs.dir/src/Program.cpp.o"
+  "/home/astefu/CLionProjects/ATFLabs/src/Queue.cpp" "/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles/ATFLabs.dir/src/Queue.cpp.o"
+  "/home/astefu/CLionProjects/ATFLabs/src/main.cpp" "/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles/ATFLabs.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/85/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /usr/local/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/85/bin/cmake/linux/bin/cmake -E remove -f
+RM = /usr/local/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -54,8 +54,10 @@ CMAKE_BINARY_DIR = /home/astefu/CLionProjects/ATFLabs/cmake-build-debug
 include CMakeFiles/lint.dir/progress.make
 
 CMakeFiles/lint: ../src/Program.cpp
+CMakeFiles/lint: ../src/Queue.cpp
+CMakeFiles/lint: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linting ATFLabs"
-	/snap/clion/85/bin/cmake/linux/bin/cmake -E chdir /home/astefu/CLionProjects/ATFLabs /usr/bin/python2.7 /home/astefu/CLionProjects/ATFLabs/misc/cpplint/cpplint.py --filter=-build/include_subdir,-readability/streams,-legal/copyright, --counting=detailed --linelength=120 /home/astefu/CLionProjects/ATFLabs/src/Program.cpp
+	/usr/local/bin/cmake -E chdir /home/astefu/CLionProjects/ATFLabs /usr/bin/python2.7 /home/astefu/CLionProjects/ATFLabs/misc/cpplint/cpplint.py --filter=-build/include_subdir,-readability/streams,-legal/copyright, --counting=detailed --linelength=120 /home/astefu/CLionProjects/ATFLabs/src/Program.cpp /home/astefu/CLionProjects/ATFLabs/src/Queue.cpp /home/astefu/CLionProjects/ATFLabs/src/main.cpp
 
 lint: CMakeFiles/lint
 lint: CMakeFiles/lint.dir/build.make
