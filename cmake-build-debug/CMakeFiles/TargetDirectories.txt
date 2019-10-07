@@ -1,4 +1,0 @@
-/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles/ATFLabs.dir
-/home/astefu/CLionProjects/ATFLabs/cmake-build-debug/CMakeFiles/lint.dir
