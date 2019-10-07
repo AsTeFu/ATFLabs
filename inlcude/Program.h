@@ -2,8 +2,8 @@
 // Created by astefu on 9/19/19.
 //
 
-#ifndef LABA1_PROGRAM_H
-#define LABA1_PROGRAM_H
+#ifndef ATFLABS_PROGRAM_H
+#define ATFLABS_PROGRAM_H
 
 #include <functional>
 #include <map>
@@ -33,4 +33,4 @@ class Program {
   void invoke(int i);
 };
 
-#endif  // LABA1_PROGRAM_H
+#endif  // ATFLABS_PROGRAM_H

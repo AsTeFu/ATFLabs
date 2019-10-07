@@ -2,8 +2,8 @@
 // Created by astefu on 9/6/19.
 //
 
-#ifndef LABA1_QUEUE_H
-#define LABA1_QUEUE_H
+#ifndef ATFLABS_QUEUE_H
+#define ATFLABS_QUEUE_H
 
 #include <iterator>
 #include <map>
@@ -58,4 +58,4 @@ class Queue {
   }
 };
 
-#endif  // LABA1_QUEUE_H
+#endif  // ATFLABS_QUEUE_H
