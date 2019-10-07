@@ -4,6 +4,7 @@
 
 #include "../inlcude/Utility.h"
 #include <iostream>
+#include <string>
 
 bool Utility::tryToInt(const std::string& str, int* num) {
   try {
