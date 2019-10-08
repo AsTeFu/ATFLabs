@@ -15,7 +15,7 @@ class Coffee : public Drink {
   Coffee(const std::string& firm, const std::string& mark, int year, int roasters);
   void setRoasters(int roasters);
   int getRoasters() const;
-  std::string to_string(int currentYear) const override;
+  std::string to_string(int currentYear) const;
 };
 
 #endif  // ATFLABS_COFFEE_H

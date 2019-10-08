@@ -4,6 +4,7 @@
 
 #include "../inlcude/DrinkReader.h"
 
+#include <cstdio>
 #include <fstream>
 #include <iostream>
 #include <sstream>
@@ -11,31 +12,29 @@
 #include <utility>
 #include <vector>
 
-std::vector<Drink> DrinkReader::readDrink(const std::string& path) {
-  std::ifstream file(path);
+void DrinkReader::readDrink(const std::string& path) {
+  FILE* file = fopen(path.c_str(), "rb+");
 
-  if (!file.is_open()) {
-    std::cout << "File not found!" << std::endl;
-    return {};
+  if (file == nullptr) {
+    std::cout << "File not found" << std::endl;
+    return;
   }
 
-  std::vector<Drink> drink;
+  fscanf(file, "%d", &year);
+  fseek(file, 1, SEEK_CUR);
 
-  int currentYear;
-  file >> currentYear;
+  while (!feof(file)) {
+    unsigned char typeDrink;
+    char firm[50];
+    char mark[50];
+    int yearDrink, param;
 
-  for (std::string buffer; !file.eof(); file >> buffer) {
-    std::string firm;
-    std::string mark;
-    int year;
+    fscanf(file, "%c %s %s %d %d\n", &typeDrink, firm, mark, &yearDrink, &param);
+    drink.emplace_back(firm, mark, yearDrink);
 
-    file.ignore(3);
-    file >> firm >> mark >> year;
-    file.ignore(1);
-
-    drink.emplace_back(firm, mark, year);
+    if (typeDrink == 'T') tea.emplace_back(firm, mark, yearDrink, param);
+    if (typeDrink == 'C') coffee.emplace_back(firm, mark, yearDrink, param);
   }
 
-  file.close();
-  return drink;
+  fclose(file);
 }

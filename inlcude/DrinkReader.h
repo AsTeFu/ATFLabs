@@ -13,9 +13,12 @@
 
 class DrinkReader {
  public:
-  static std::vector<Drink> readDrink(const std::string& path);
-  static std::vector<Tea> readTea(const std::string& path);
-  static std::vector<Coffee> readCoffe(const std::string& path);
+  int year;
+  std::vector<Drink> drink;
+  std::vector<Tea> tea;
+  std::vector<Coffee> coffee;
+
+  void readDrink(const std::string& path);
 };
 
 #endif  // ATFLABS_DRINKREADER_H

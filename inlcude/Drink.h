@@ -16,10 +16,7 @@ class Drink {
 
  public:
   Drink(std::string firm, std::string mark, int year);
-  virtual std::string to_string() const;
-  virtual std::string to_string(int year) const {
-    return to_string();
-  }
+  std::string to_string() const;
   void setFirm(const std::string& firm);
   void setMark(const std::string& mark);
   void setYear(int year);

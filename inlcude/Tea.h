@@ -13,7 +13,7 @@ class Tea : public Drink {
 
  public:
   Tea(const std::string& firm, const std::string& mark, int year, int type);
-  std::string to_string(int currentYear) const override;
+  std::string to_string(int currentYear) const;
   void setType(int type);
   int getType() const;
 };

@@ -1,7 +1,7 @@
 2019
-К KOFFE newKoffe 2018 1
-Ч Lipton currLipton 2017 4
-К neKOFFE oldKoffe 2013 2
-Ч Lipton oldLipton 2007 5
-Ч neLipton newLipton 2022 6
-К neKOFFE currKoffe 2019 3
+C KOFFE newKoffe 2018 1
+T Lipton currLipton 2017 4
+C neKOFFE oldKoffe 2013 2
+T Lipton oldLipton 2007 5
+T neLipton newLipton 2022 6
+C neKOFFE currKoffe 2019 3
