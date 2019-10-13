@@ -1,7 +1,9 @@
 #include <iostream>
 #include "../inlcude/TaylorCos.h"
+#include "../inlcude/Utility.h"
 
 int main() {
-  std::cout << TaylorCos::calculate(2, 10, 2, 2) << std::endl;
+  TaylorCos taylorCos(Utility::getNumber("Input n: "), Utility::getNumber("Input a: "));
+  std::cout << taylorCos;
   return 0;
 }

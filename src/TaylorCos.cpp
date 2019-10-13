@@ -3,23 +3,24 @@
 //
 
 #include "../inlcude/TaylorCos.h"
-#include <math.h>
+#include <string>
 
-double TaylorCos::calculate(int a, int n, double x) {
-  /*
-  double value = 0;
-  for (int i = 0; i < n; ++i) {
-    value += pow<int>(a, i) * pow<double>(x - x0, i) * cos(x0 * a + (i * 3.14) * 0.5) / fact(i);
-  }
-  return value;
-  */
-
-  double value = 0;
-  for (int i = 0; i < n; ++i) {
-    value += pow<int>(-1, i) * pow<double>(a * x, 2 * i) / fact(2 * i);
-  }
-  return value;
-}
 std::ostream& operator<<(std::ostream& os, const TaylorCos& cos) {
+  for (int i = 0; i < cos.n; ++i) {
+    if (i % 2 == 1)
+      os << " -";
+    else if (i > 0)
+      os << " +";
+    os << "(";
+    if (2 * i != 0)
+      os << cos.a << "x^[" << 2 * i << "]";
+    else
+      os << "1";
+    if (2 * i > 1) os << "/" << 2 * i << "!";
+    os << ") ";
+  }
+
   return os;
 }
+
+TaylorCos::TaylorCos(int n, int a) : n(n), a(a) {}
